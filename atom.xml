@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-16T11:54:33.467Z</updated>
+  <updated>2018-05-18T08:34:56.022Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>newStart</title>
+    <link href="http://yoursite.com/2018/05/18/newStart/"/>
+    <id>http://yoursite.com/2018/05/18/newStart/</id>
+    <published>2018-05-18T08:26:38.000Z</published>
+    <updated>2018-05-18T08:34:56.022Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;一个新的开始&quot;&gt;&lt;a href=&quot;#一个新的开始&quot; class=&quot;headerlink&quot; title=&quot;一个新的开始&quot;&gt;&lt;/a&gt;一个新的开始&lt;/h3&gt;&lt;p&gt;在这之前，我在wordpress搭建过一个博客，也花了一些时间去学习wordpress，但由于某一天我重刷了
+      
+    
+    </summary>
+    
+      <category term="“读书”" scheme="http://yoursite.com/categories/%E2%80%9C%E8%AF%BB%E4%B9%A6%E2%80%9D/"/>
+    
+    
+      <category term="写写" scheme="http://yoursite.com/tags/%E5%86%99%E5%86%99/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>

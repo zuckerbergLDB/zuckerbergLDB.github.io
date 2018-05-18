@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[newStart]]></title>
+    <url>%2F2018%2F05%2F18%2FnewStart%2F</url>
+    <content type="text"><![CDATA[一个新的开始在这之前，我在wordpress搭建过一个博客，也花了一些时间去学习wordpress，但由于某一天我重刷了服务器系统，导致以前我所写的所有文章都没有了。也因为服务器的到期要续费，而最近正好学习github的使用，发现GitHub pages的神奇厉害之处，一个自由度很高的博客，最重要的是还是免费，GitHub提供免费的空间和域名，还可以用markdowm来写文章，所以利用Github + Hexo重新搭建了一个blog。 作为一个同时用过wordpress和github pages的人，我来讲讲这两种方式的一些看法。wordpress更像一个网站的集成器，所有设置，文章发布，标签设置，主题安装都可以在在wordpress后台管理。wordpress更适合一些对于无编程基础，不喜欢折腾的人来使用。相反的github pages是一个自由的天地，所有的修改都要在.config文件里面改。如果你有前端的基础，基本上可以在网页上实现你想要的功能。一个自由度很高的博客，就需要一些一点的编程基础，比如熟悉git和GitHub的使用，node.js的了解。当然现在GitHub文档和hexo文档以及网上的教程都已经很详细的显示 了如何利用Github pages+Hexo搭建了一个blog。即使你没有编程基础，只要会复制粘贴命令，也可以搭建出一个很漂亮的博客。 我想这又是一个新的开端,我慢慢又重新回到了文字上。我现在又可以在为文字而感动，可以在一个清晨，拿着一本书，坐在被藤蔓环绕的长椅上，阳光被藤蔓的树叶削弱了温度，眼前的草地更别具绿色。 没有谁是一座孤岛一个人无法自成孤岛，那么至少，一个人无法自成最理想的孤岛 我想这一个博客至少可以成为我的回忆。这个我博客所涉及的内容应该就是我所涉猎的内容，有关于电影，追剧，游戏，编程，读书。我想我可以写下精彩的影评，写下剧中回忆录，写下游戏中制造的色彩，写下书中的每一个世界。这是一个博客，但也可能是一个头号玩家。]]></content>
+      <categories>
+        <category>“读书”</category>
+      </categories>
+      <tags>
+        <tag>写写</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F05%2F16%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
