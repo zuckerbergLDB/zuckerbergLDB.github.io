@@ -83,14 +83,17 @@
 
 
 
+<meta name="description" content="var sn = [ 42, 41 ], dz = 43, fx = 1, n, ctx = document.getElementById(&quot;can&quot;).getContext(&quot;2d&quot;);         function draw(t, c) {             ctx.fillStyle = c;             ctx.fillRe">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hello there">
 <meta property="og:url" content="http://yoursite.com/404.html">
 <meta property="og:site_name" content="Hello there">
+<meta property="og:description" content="var sn = [ 42, 41 ], dz = 43, fx = 1, n, ctx = document.getElementById(&quot;can&quot;).getContext(&quot;2d&quot;);         function draw(t, c) {             ctx.fillStyle = c;             ctx.fillRe">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-05-17T06:29:08.685Z">
+<meta property="og:updated_time" content="2018-05-18T14:06:55.187Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hello there">
+<meta name="twitter:description" content="var sn = [ 42, 41 ], dz = 43, fx = 1, n, ctx = document.getElementById(&quot;can&quot;).getContext(&quot;2d&quot;);         function draw(t, c) {             ctx.fillStyle = c;             ctx.fillRe">
 
 
 
@@ -322,22 +325,34 @@
       <div class="post-body">
         
         
-          <!DOCTYPE HTML>
+          <!doctype html>
 <html>
-<head>
-  <meta http-equiv="content-type" content="text/html;charset=utf-8;">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="robots" content="all">
-  <meta name="robots" content="index,follow">
-  <link rel="stylesheet" type="text/css" href="https://qzone.qq.com/gy/404/style/404style.css">
-</head>
 <body>
-  <script type="text/plain" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="/" homepagename="回到我的主页">
-  </script>
-  <script src="https://qzone.qq.com/gy/404/data.js" charset="utf-8"></script>
-  <script src="https://qzone.qq.com/gy/404/page.js" charset="utf-8"></script>
+    <canvas id="can" width="400" height="400" style="background: Black"></canvas>
+    <script>
+        var sn = [ 42, 41 ], dz = 43, fx = 1, n, ctx = document.getElementById("can").getContext("2d");
+        function draw(t, c) {
+            ctx.fillStyle = c;
+            ctx.fillRect(t % 20 * 20 + 1, ~~(t / 20) * 20 + 1, 18, 18);
+        }
+        document.onkeydown = function(e) {
+            fx = sn[1] - sn[0] == (n = [ -1, -20, 1, 20 ][(e || event).keyCode - 37] || fx) ? fx : n
+        };
+        !function() {
+            sn.unshift(n = sn[0] + fx);
+            if (sn.indexOf(n, 1) > 0 || n<0||n>399 || fx == 1 && n % 20 == 0 || fx == -1 && n % 20 == 19)
+                return alert("GAME OVER");
+            draw(n, "Lime");
+            if (n == dz) {
+                while (sn.indexOf(dz = ~~(Math.random() * 400)) >= 0);
+                draw(dz, "Yellow");
+            } else
+                draw(sn.pop(), "Black");
+                setTimeout(arguments.callee, 130);
+        }();
+    </script>
 </body>
-</html>
+</html> 
 
         
       </div>
