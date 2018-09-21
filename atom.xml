@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-08T02:11:15.480Z</updated>
+  <updated>2018-09-21T14:36:10.536Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>talk-about-myself</title>
+    <link href="http://yoursite.com/2018/09/21/myself/"/>
+    <id>http://yoursite.com/2018/09/21/myself/</id>
+    <published>2018-09-21T02:06:57.000Z</published>
+    <updated>2018-09-21T14:36:10.536Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;谈谈我自己的近况吧&quot;&gt;&lt;a href=&quot;#谈谈我自己的近况吧&quot; class=&quot;headerlink&quot; title=&quot;谈谈我自己的近况吧&quot;&gt;&lt;/a&gt;谈谈我自己的近况吧&lt;/h2&gt;&lt;p&gt;想到自己刚进入大学的踌躇满志，想要着去做一些别人不敢想象，想着自己就是一个万中挑一的
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>谈谈第一次面试</title>
